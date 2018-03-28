@@ -1,0 +1,202 @@
+body {
+    color: #35416E;
+    font: 16px "Avenir Next", "Open Sans";
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: url(../images/header.svg) no-repeat center top / cover;
+    height: 100px;
+    color: #B8C0CC;
+    box-shadow: 0 0 10px #7E7E7E;
+ }
+footer {
+    background: #ffffff;
+    height: 125px;
+    color: #35416E;
+    margin-top: 0px;
+}
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+.logo {
+    float: left;
+    margin-top: 8px;
+}
+div {
+    box-sizing: border-box;
+}
+nav {
+    float: right;
+    margin-top: 38.5px;
+}
+.menu {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+.menu li {
+    float: left;
+    display: block;
+}
+.menu a {
+    margin-left: 20px;
+}
+h1 {
+    font: 32px "Avenir Next", "Open Sans";
+    font-weight: bold;
+    color: #35416E;
+    margin-top: 70px;
+    margin-bottom: 0px;
+    padding: 0;
+    text-align: center;
+}
+span {
+    color: #4E6CE5;
+}
+.lineTime {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 70px;
+}
+h2 {
+    font: 32px "Avenir Next", "Open Sans";
+    font-weight: bold;
+    color: #35416E;
+    margin-top: 70px;
+    margin-bottom: 0px;
+    padding: 0;
+}
+.moika {
+    
+}
+.line {
+    margin: 0;
+    padding: 0;
+}
+.textblock1 {
+    width: 268px;
+    height: 186px;
+}
+.himchistka {
+    
+}
+.polirovka {
+    
+}
+.shini {
+    
+}
+h3 {
+    font: 32px "Avenir Next", "Open Sans";
+    font-weight: bold;
+    color: #B8C0CC;
+    margin-top: 70px;
+    margin-bottom: 0px;
+    padding: 0;
+    text-align: center;
+}
+h4 {
+    font: 18px "Avenir Next", "Open Sans";
+    font-weight: bold;
+    color: #35416E;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 0;
+    margin-top: 0px;
+}
+.clearfix:after {
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+.abilities {
+    
+}
+.water {
+    float: left;
+}
+.textblock3 {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 364px;
+}
+.textblock4 {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 364px;
+    margin-right: 0px;
+}
+.abilities-last {
+    margin-bottom: 70px;
+    margin-right: 0px;
+}
+.abil-text {
+    float: left;
+}
+.map {
+    margin-top: 70px;
+    margin-bottom: 0px;
+}
+.adress {
+    float: left;
+    margin: 0 auto;
+}
+.footer-sign {
+    float: left;
+    width: 141px;
+}
+h5 {
+    font: 20px "Avenir Next", "Open Sans";
+    float: left;
+    margin-left: 0px;
+    margin-top: 17px;
+}
+.textblock5 {
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 141px;
+    margin-right: 0px;
+    margin-bottom: 17px;
+}
+.phone {
+    float: left;
+    margin: 0 auto;
+}
+.mail {
+    float: left;
+    margin: 0 auto;
+}
+.scroll {
+	text-decoration: none;
+	color: #B8C0CC;
+}
+.container-service {
+	max-width: 1440px;
+	display: grid;
+	grid-template-columns: 100px 1fr 1fr 1fr 1fr 100px;
+}
+.container-betters {
+	max-width: 1440px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.container-header {
+	max-width: 1440px;
+	display: grid;
+	grid-template-columns: 100px 407px 1fr 340px 100px;
+}
+.section-photo {
+	text-align: center;
+}
+.container-photo {
+	margin: 0 auto;
+}
+.container-bottom {
+	max-width: 1440px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}

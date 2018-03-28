@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="75px" height="75px" viewBox="0 0 75 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Капля</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-240.000000, -1658.000000)">
+            <g id="Преимущества" transform="translate(240.000000, 1559.000000)">
+                <g id="Производительность" transform="translate(0.000000, 99.000000)">
+                    <g id="Капля">
+                        <circle id="Oval" fill="#4E6CE5" cx="37.5" cy="37.5" r="37.5"></circle>
+                        <g id="drop-of-water-1745699" transform="translate(7.500000, 7.500000)" fill-rule="nonzero">
+                            <g id="Group" transform="translate(13.155080, 4.973262)">
+                                <path d="M34.3083753,35.3147407 C32.8295403,42.7930904 26.6811065,50.5843304 17.2726042,50.5843304 C7.86385258,50.5843304 1.71516947,42.7924676 0.236832993,35.3147407 C-2.29678144,22.5026843 17.2726042,0.0249116399 17.2726042,0.0249116399 C17.2726042,0.0249116399 36.8424884,22.5014387 34.3083753,35.3147407 Z" id="Shape" fill="#FFFFFF"></path>
+                                <ellipse id="Oval" fill-opacity="0.4556" fill="#D5DFED" cx="9.91582349" cy="38.5721867" rx="4.24068172" ry="4.2375945"></ellipse>
+                                <path d="M17.2713577,0.0236660579 L17.2713577,50.5868215 C26.6801093,50.5868215 32.8300389,42.7912221 34.3096218,35.3134951 C36.8432363,22.5014387 17.2713577,0.0249116399 17.2713577,0.0249116399 L17.2713577,0.0236660579 Z" id="Shape" fill="#F0F3F8"></path>
+                            </g>
+                            <rect id="Rectangle-path" fill-opacity="0" fill="#000000" x="0" y="0" width="60" height="60"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
