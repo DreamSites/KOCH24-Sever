@@ -1,180 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    
-    <title>Koch Sever</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-    <link rel="stylesheet" href="css/main.css" type="text/css">
-    <link rel="stylesheet" media="all" href="css/animate.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <title>Koch Sever</title>
 
-    <script src="js/wow.min.js"></script>
-    <script>new WOW().init();</script>
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script>
-	    $(document).ready(function(){
-    $('.scroll').click( function(){
-	var scroll_el = $(this).attr('href');
+  <link rel="stylesheet" href="css/main.css" type="text/css">
+  <link rel="stylesheet" media="all" href="css/animate.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.scroll').click(function() {
+        var scroll_el = $(this).attr('href');
         if ($(scroll_el).length != 0) {
-	    $('html, body').animate({ scrollTop: $(scroll_el).offset().top }, 500);
+          $('html, body').animate({
+            scrollTop: $(scroll_el).offset().top
+          }, 500);
         }
-	    return false;
+        return false;
+      });
     });
-});
-	</script>
+  </script>
 </head>
+
 <body>
 
-    <!-- ШАПКА -->
+  <!-- ШАПКА -->
 
-    <header class="bounceInDown animated">
-	    <div style=" margin: 0 auto; max-width: 1440px;">
-        	<div class="container-header">
-	        	<div></div>
-	        	
-				<img src="images/logo.svg" alt="Koch24 СЕВЕР" class="logo">
-				<div></div>
-				
-				<nav>
-                	<ul class="menu">
-                    	<li><a class="scroll" href="#service">	Услуги</a></li>
-						<li><a class="scroll" href="#betters">	Наши преимущества</a></li>
-						<li><a class="scroll" href="#">			Вакансии</a></li>
-                	</ul>
-            	</nav>
-            	
-				<div></div>
-        	</div>
-	    </div>
-    </header>
+  <header class="bounceInDown animated">
+    <div style=" margin: 0 auto; max-width: 1440px;">
+      <div class="container-header">
+        <div></div>
 
-    <!-- ФОТО И РЕЖИМ РАБОТЫ -->
+        <img src="images/logo.svg" alt="Koch24 СЕВЕР" class="logo">
+        <div></div>
 
-    <section>
-	    <div class="section-photo">
-		    
-        	<img src="images/photo1.png" class="bounceInDown wow" style="width: 100vw">
-        	
-			<div class="container-photo">
-            	<h1 class="bounceInDown wow">Режим работы <span>круглосуточно</span> и без выходных</h1>
-				<p class="lineTime"><img src="images/lineTime.svg" class="bounceInDown wow"></p>
-        	</div>
-        	
-			<img src="images/separator.svg" class="bounceInLeft wow" style="width: 100vw">
-			
-	    </div>
-    </section>
+        <nav>
+          <ul class="menu">
+            <li><a class="scroll" href="#service">	Услуги</a></li>
+            <li><a class="scroll" href="#betters">	Наши преимущества</a></li>
+            <li><a class="scroll" href="#">			    Вакансии</a></li>
+          </ul>
+        </nav>
 
-    <!-- УСЛУГИ И ФОТО -->
+        <div></div>
+      </div>
+    </div>
+  </header>
 
-    <section>
-	    <div style=" margin: 0 auto; max-width: 1440px;">
-        	<div class="container-service" id="service">
-				<div></div>
-				
-            	<div class="moika">
-                	<h2 class="bounceInLeft wow">Мойка</h2>
-					<p class="line"><img src="images/line.svg" class="bounceInLeft wow"></p>
-					<div class="bounceInLeft wow"><p class="textblock1">Бесконтактная мойка с помощью аппарата высокого давления с применением профессиональной автохимии Koch Chemie®</p></div>
-            	</div>
-            
-				<div class="himchistka">
-                	<h2 class="bounceInLeft wow">Химчистка</h2>
-					<p class="line"><img src="images/line.svg" class="bounceInLeft wow"></p>
-					<div class="bounceInLeft wow"><p class="textblock1">Комплексная и детальная с использованием самого современного оборудования. Бережный и тщательный уход за интерьером авто</p></div>
-            	</div>
+  <!-- ФОТО И РЕЖИМ РАБОТЫ -->
 
-				<div class="polirovka">
-					<h2 class="bounceInRight wow">Полировка</h2>
-					<p class="line"><img src="images/line.svg" class="bounceInRight wow"></p>
-					<div class="bounceInRight wow"><p class="textblock1">Koch24 Север предлагает Вам профессиональные услуги по восстановлению ЛКП автомобиля, мотоцикла, путем очистки и полировки</p></div>
-            	</div>
+  <section>
+    <div class="section-photo">
+
+      <img src="images/photo1.png" class="bounceInDown wow" style="width: 100vw">
+
+      <div class="container-photo">
+        <h1 class="bounceInDown wow">Режим работы <span>круглосуточно</span> и без выходных</h1>
+        <p class="lineTime"><img src="images/lineTime.svg" class="bounceInDown wow"></p>
+      </div>
+
+      <img src="images/separator.svg" class="bounceInLeft wow" style="width: 100vw">
+
+    </div>
+  </section>
+
+  <!-- УСЛУГИ И ФОТО -->
+
+  <section>
+    <div style=" margin: 0 auto; max-width: 1440px;">
+      <div class="container-service" id="service">
+        <div></div>
+
+        <div class="moika">
+          <h2 class="bounceInLeft wow">Мойка</h2>
+          <p class="line"><img src="images/line.svg" class="bounceInLeft wow"></p>
+          <div class="bounceInLeft wow">
+            <p class="textblock1">Бесконтактная мойка с помощью аппарата высокого давления с применением профессиональной автохимии Koch Chemie®</p>
+          </div>
+        </div>
+
+        <div class="himchistka">
+          <h2 class="bounceInLeft wow">Химчистка</h2>
+          <p class="line"><img src="images/line.svg" class="bounceInLeft wow"></p>
+          <div class="bounceInLeft wow">
+            <p class="textblock1">Комплексная и детальная с использованием самого современного оборудования. Бережный и тщательный уход за интерьером авто</p>
+          </div>
+        </div>
+
+        <div class="polirovka">
+          <h2 class="bounceInRight wow">Полировка</h2>
+          <p class="line"><img src="images/line.svg" class="bounceInRight wow"></p>
+          <div class="bounceInRight wow">
+            <p class="textblock1">Koch24 Север предлагает Вам профессиональные услуги по восстановлению ЛКП автомобиля, мотоцикла, путем очистки и полировки</p>
+          </div>
+        </div>
 
 
-				<div class="shini">
-                	<h2 class="bounceInRight wow">Шиномонтаж</h2>
-					<p class="line"><img src="images/line.svg" class="bounceInRight wow"></p>
-					<div class="bounceInRight wow"><p class="textblock1">Шиномонтаж в компании Koch24 Север — это не только высококачественное оборудование, но и профессиональные мастера</p></div>
-            	</div>
-            	
-            	<div></div>
-        	</div>
-	    </div>
-        <img src="images/photo2.svg" class="zoomIn wow" style="width: 100vw">
-    </section>
+        <div class="shini">
+          <h2 class="bounceInRight wow">Шиномонтаж</h2>
+          <p class="line"><img src="images/line.svg" class="bounceInRight wow"></p>
+          <div class="bounceInRight wow">
+            <p class="textblock1">Шиномонтаж в компании Koch24 Север — это не только высококачественное оборудование, но и профессиональные мастера</p>
+          </div>
+        </div>
 
-    <!-- ПРЕИМУЩЕСТВА -->
+        <div></div>
+      </div>
+    </div>
+    <img src="images/photo2.svg" class="zoomIn wow" style="width: 100vw">
+  </section>
 
-    <section>
-	    <div style="margin: 0 auto; max-width: 1440px;" id="betters">
-		    
-		    <h3 class="bounceInUp wow">Наши преимущества</h3>
-            <p class="lineTime"><img src="images/lineTime.svg" class="bounceInUp wow"></p>
-            
-        <div class="container-betters">
-	        
-            <div class="abilities">
-            	<div class="bounceInLeft wow"><img src="images/water.svg" class="water"></div>
-					<div class="abil-text">
-                		<h4 class="bounceInLeft wow">Производительность</h4>
-						<div class="bounceInLeft wow"><p class="textblock3">Большие производственные и вспомогательные площади позволяют одновременно проходить производственный цикл в помещении порядка 12 авто.</p></div>
-            		</div>
-            	</div>
-            	
-			<div class="abilities">
-                <div class="bounceInUp wow"><img src="images/water.svg" class="water"></div>
-					<div class="abil-text">
-                    	<h4 class="bounceInUp wow">Технологичность</h4>
-						<div class="bounceInUp wow"><p class="textblock3">Новейшая техническая база, работа с проверенным оборудованием и материалами, позволяющими обслуживать автомобили любого уровня и класса.</p></div>
-                	</div>
-            	</div>
-            	
-				<div class="abilities-last">
-                	<div class="bounceInRight wow"><img src="images/water.svg" class="water"></div>
-					<div class="abil-text">
-                    	<h4 class="bounceInRight wow">Комфорт</h4>
-						<div class="bounceInRight wow"><p class="textblock4">У нас есть большой и удобный зал ожидания с телевизором, кондиционером, диванами, кофейным аппаратом и аквариумом с рыбками.</p></div>
-                	</div>
-            	</div>
-            	
-        	</div>
-	    </div>
-    </section>
-    
-    <div class="bounceInUp wow"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2239.8091104610153!2d37.496223816267275!3d55.84862718057899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b537fa63ad9f07%3A0xa920b8ffd5979ddb!2z0JTQtdGC0LXQudC70LjQvdCzINGG0LXQvdGC0YAgS29jaDI0INCh0LXQstC10YA!5e0!3m2!1sru!2sru!4v1521464414401" height="600" class="map" frameborder="0" style="border:0; width: 100vw"  allowfullscreen></iframe></div>
-    
+  <!-- ПРЕИМУЩЕСТВА -->
 
-    <!-- НИЗ -->
+  <section>
+    <div style="margin: 0 auto; max-width: 1440px;" id="betters">
 
-    <footer class="bounceInUp animated">
-	    <div style=" margin: 0 auto; max-width: 1440px;">
-        	<div class="container-bottom">
-	        	
-            	<div class="adress">
-                	<div class="footer-sign">
-                    	<h5>Адрес</h5>
-                	</div>
-					<p class="textblock5">г. Москва, ул. Смольная, д. 10</p>
-            	</div>
-            	
-				<div class="phone">
-                	<div class="footer-sign">
-                    	<h5>Телефон</h5>
-                	</div>
-					<p class="textblock5">+7(903)222-27-50</p>
-            	</div>
-            	
-				<div class="mail">
-                	<div class="footer-sign">
-                    	<h5>E-Mail</h5>
-                	</div>
-					<p class="textblock5">detail@kochsever.ru</p>
-            	</div>
-            	
-        	</div>
-	    </div>
-    </footer>
+      <h3 class="bounceInUp wow">Наши преимущества</h3>
+      <p class="lineTime"><img src="images/lineTime.svg" class="bounceInUp wow"></p>
+
+      <div class="container-betters">
+
+        <div class="abilities">
+          <div class="bounceInLeft wow"><img src="images/water.svg" class="water"></div>
+          <div class="abil-text">
+            <h4 class="bounceInLeft wow">Производительность</h4>
+            <div class="bounceInLeft wow">
+              <p class="textblock3">Большие производственные и вспомогательные площади позволяют одновременно проходить производственный цикл в помещении порядка 12 авто.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="abilities">
+          <div class="bounceInUp wow"><img src="images/water.svg" class="water"></div>
+          <div class="abil-text">
+            <h4 class="bounceInUp wow">Технологичность</h4>
+            <div class="bounceInUp wow">
+              <p class="textblock3">Новейшая техническая база, работа с проверенным оборудованием и материалами, позволяющими обслуживать автомобили любого уровня и класса.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="abilities-last">
+          <div class="bounceInRight wow"><img src="images/water.svg" class="water"></div>
+          <div class="abil-text">
+            <h4 class="bounceInRight wow">Комфорт</h4>
+            <div class="bounceInRight wow">
+              <p class="textblock4">У нас есть большой и удобный зал ожидания с телевизором, кондиционером, диванами, кофейным аппаратом и аквариумом с рыбками.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="bounceInUp wow"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2239.8091104610153!2d37.496223816267275!3d55.84862718057899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b537fa63ad9f07%3A0xa920b8ffd5979ddb!2z0JTQtdGC0LXQudC70LjQvdCzINGG0LXQvdGC0YAgS29jaDI0INCh0LXQstC10YA!5e0!3m2!1sru!2sru!4v1521464414401"
+      height="600" class="map" frameborder="0" style="border:0; width: 100vw" allowfullscreen></iframe></div>
+
+
+  <!-- НИЗ -->
+
+  <footer class="bounceInUp animated">
+    <div style=" margin: 0 auto; max-width: 1440px;">
+      <div class="container-bottom">
+
+        <div class="adress">
+          <div class="footer-sign">
+            <h5>Адрес</h5>
+          </div>
+          <p class="textblock5">г. Москва, ул. Смольная, д. 10</p>
+        </div>
+
+        <div class="phone">
+          <div class="footer-sign">
+            <h5>Телефон</h5>
+          </div>
+          <p class="textblock5">+7(903)222-27-50</p>
+        </div>
+
+        <div class="mail">
+          <div class="footer-sign">
+            <h5>E-Mail</h5>
+          </div>
+          <p class="textblock5">detail@kochsever.ru</p>
+        </div>
+
+      </div>
+    </div>
+  </footer>
 </body>
+
 </html>
